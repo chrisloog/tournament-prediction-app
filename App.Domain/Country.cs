@@ -13,5 +13,6 @@ public class Country : BaseEntityId
     [MaxLength(3)]
     public string ShortName { get; set; } = default!;
     
-    // TODO: ICollections
+    public ICollection<Team>? Teams { get; set; }
+    public ICollection<Player>? Players { get; set; }
 }

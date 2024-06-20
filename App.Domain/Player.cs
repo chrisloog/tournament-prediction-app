@@ -11,4 +11,7 @@ public class Player : BaseEntityId
 
     public Guid? CountryId { get; set; }
     public Country? Country { get; set; }
+
+    public Guid? TeamId { get; set; }
+    public Team? Team { get; set; }
 }

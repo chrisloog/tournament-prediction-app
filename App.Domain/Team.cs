@@ -19,5 +19,7 @@ public class Team : BaseEntityId
     public Guid? CountryId { get; set; }
     public Country? Country { get; set; }
     
-    // TODO: ICollections
+    public ICollection<Player>? Players { get; set; }
+    public ICollection<TeamInCompetition>? TeamInCompetitions { get; set; }
+    public ICollection<TeamInMatch>? TeamInMatches { get; set; }
 }
