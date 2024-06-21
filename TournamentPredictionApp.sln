@@ -10,6 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		README.md = README.md
+		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.Contracts.Domain", "Base.Contracts.Domain\Base.Contracts.Domain.csproj", "{58B00EAB-F967-403C-B3E2-CC6254F94DAB}"
@@ -27,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{F15BFF9D-E3B0-4191-BB78-9F229CFA36BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain", "App.Domain\App.Domain.csproj", "{73CB0620-DAE7-4E41-B4B9-7034AEECED89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.DAL.EF", "App.DAL.EF\App.DAL.EF.csproj", "{0BC3AFF1-EAA3-4B40-AA5B-236DB89B00BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -70,6 +73,10 @@ Global
 		{73CB0620-DAE7-4E41-B4B9-7034AEECED89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73CB0620-DAE7-4E41-B4B9-7034AEECED89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73CB0620-DAE7-4E41-B4B9-7034AEECED89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC3AFF1-EAA3-4B40-AA5B-236DB89B00BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC3AFF1-EAA3-4B40-AA5B-236DB89B00BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC3AFF1-EAA3-4B40-AA5B-236DB89B00BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC3AFF1-EAA3-4B40-AA5B-236DB89B00BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{29C7F401-F86E-4A28-8CD7-E15646608EA5} = {C536AE7F-D7A3-4121-BEB6-607980EBC56A}
@@ -81,5 +88,6 @@ Global
 		{D5DB52A2-725F-41B0-8580-464C69194DC3} = {CAC2D6F9-CED3-4736-BB21-28F792BC660B}
 		{F15BFF9D-E3B0-4191-BB78-9F229CFA36BB} = {CAC2D6F9-CED3-4736-BB21-28F792BC660B}
 		{73CB0620-DAE7-4E41-B4B9-7034AEECED89} = {C536AE7F-D7A3-4121-BEB6-607980EBC56A}
+		{0BC3AFF1-EAA3-4B40-AA5B-236DB89B00BD} = {C536AE7F-D7A3-4121-BEB6-607980EBC56A}
 	EndGlobalSection
 EndGlobal
