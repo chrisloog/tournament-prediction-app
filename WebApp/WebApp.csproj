@@ -18,6 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\App.Contracts.DAL\App.Contracts.DAL.csproj" />
       <ProjectReference Include="..\App.DAL.EF\App.DAL.EF.csproj" />
     </ItemGroup>
 
